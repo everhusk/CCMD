@@ -1,0 +1,107 @@
+                    Carleton University
+     Department of Mechanical and Aerospace Engineering
+           COMPRESSOR PERFORMANCE ANALYSIS RESULTS
+                    Gas Turbine Project
+
+ ~~~~~~~~~~~~~~~~~~~~~~COMPRESSOR DESIGN~~~~~~~~~~~~~~~~~~~~~
+
+Compressor Rotational Speed [RPM].............|  287000
+Mass Flow Rate [kg/s].........................|     1.0300000
+
+Number of Full Blades.........................| 13
+Number of Splitter Blades.....................|  0
+Length of Full Blade [m]......................|     0.0102900
+Length of Splitter Blade [m]..................|     0.0000000
+Length of Meanline Path [m]...................|     0.0102900
+
+Inlet Blade Thickness [m].....................|     0.0002310
+Inlet Hub Radius [m]..........................|     0.0035210
+Inlet Tip Radius [m]..........................|     0.0054630
+Inlet Meanline Radius [m].....................|     0.0045957
+Inlet Swirl Angle [deg].......................|     0.0000000
+Inlet Metal Angle at Hub [deg]................|   -51.7832921
+Inlet Metal Angle at Tip [deg]................|   -63.0926710
+Inlet Metal Angle at Meanline [deg]...........|   -58.8992324
+
+Outlet Blade Thickness[m].....................|     0.0002310
+Outlet Passage Width[m].......................|     0.0008180
+Outlet Tip Radius [m].........................|     0.0091440
+Outlet Metal Angle [deg]......................|   -35.9215495
+Outlet Swirl Angle [deg]......................|    73.5949049
+
+Rotor Axial Length [m]........................|     0.0069780
+Impeller Roughness............................|     0.0000500
+Tip Clearance [m].............................|     0.0000372
+
+ ~~~~~~~~~~~~~~~~~~~ROTOR INLET PROPERTIES~~~~~~~~~~~~~~~~~~~
+
+Total Enthalpy (H01):                 417.1925607       kJ/kg
+Total Entropy (S01):                    1.7057864     kJ/kg-K
+Total Temperature (T01):              315.0000000           K
+Total Pressure (P01):                7800.0000000         kPa
+Total Density (rho01):                244.1665634      kg/m^3
+
+Static Enthalpy (H1):                 413.7211339       kJ/kg
+Static Entropy (S1):                    1.7057864     kJ/kg-K
+Static Temperature (T1):              307.0370418           K
+Static Pressure (P1):                6984.8329547         kPa
+Static Density (rho1):                225.5274221      kg/m^3
+
+Shroud Mach Number:                     0.8944076
+Meanline Mach Number:                   0.7835972
+Hub Mach Number:                        0.6542814
+
+Metal Angle (Beta 1):                  -0.0179417         deg
+Shroud (Beta1s):                      -63.0926710         deg
+Meanline (Beta1m):                    -58.8992324         deg
+Hub (Beta1h):                         -51.7832921         deg
+
+ ~~~~~~~~~~~~~~~~~~~~~~IMPELLER LOSSES~~~~~~~~~~~~~~~~~~~~~~~~
+
+Incidence Loss:                         0.0000000        J/kg
+Blade Loading Loss:                  1014.0530931        J/kg
+Skin Friction Loss:                  6196.0850233        J/kg
+Tip Clearance Loss:                   965.3251526        J/kg
+Mixing Loss:                         2223.5580858        J/kg
+Disk Friction Loss:                   220.7388706        J/kg
+Leakage Work Loss:                   5017.8416392        J/kg
+Recirculation Work Loss:              212.0554523        J/kg
+
+Internal Loss Total:                10399.0213548        J/kg
+Parasitic Loss Total:                5450.6359621        J/kg
+
+ ~~~~~~~~~~~~~~~~~~~~ROTOR OUTLET CONDTIONS~~~~~~~~~~~~~~~~~~~
+
+Total Enthalpy (H02):                 469.2717942       kJ/kg
+Total Entropy (S02):                    1.7319957     kJ/kg-K
+Total Temperature (T02):              399.4069013           K
+Total Pressure (P02):               22542.0000000         kPa
+Total Density (rho02):                  9.9120653      kg/m^3
+
+Static Enthalpy (H2):                 449.0923979       kJ/kg
+Static Entropy (S2):                    1.7319957     kJ/kg-K
+Static Temperature (T2):              365.7488368           K
+Static Pressure (P2):               14617.0866958         kPa
+Static Density (rho2):                346.7713634      kg/m^3
+
+Relative Mach Number:                   0.4018767
+
+Metal Angle (Beta 2):                 -35.9215495         deg
+Swirl Angle (Alpha 2):                 73.5949049         deg
+Cu2:                                  226.5076354         m/s
+Wu2:                                  -48.3113577         m/s
+C2:                                   236.1203614         m/s
+
+ ~~~~~~~~~~~~~~~NON-DIMENSIONAL DESIGN PARAMETERS~~~~~~~~~~~~~
+
+de Haller at tip:                       0.5881223
+de Haller at hub:                       0.8039676
+de Haller at mer:                       0.6712902
+Flow Factor:                            0.2426568
+Work Coefficient:                       0.6895585
+
+ *************************************************************
+COMPRESSOR PRESSURE RATIO:              2.8900000
+COMPRESSOR EFFICIENCY:                  0.8003232
+ *************************************************************
+

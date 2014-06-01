@@ -1,0 +1,115 @@
+                        Carleton University
+         Department of Mechanical and Aerospace Engineering
+               Centrifugal Compressor Meanline Design
+
+          Last Updated By: Sukhveer Sanghera (July 2013)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The purpose of this tool is to test the design of a centrifugal compressor
+operating in either non-ideal or ideal fluids.
+
+                              USER MANUAL
+
+1) Enter dimensions and operating conditions of the compressor.
+
+2) Select the compressor components you wish to include by entering a 1 or 0
+   where necessary.  I.e. if you would like to analyze the impeller only
+   enter a value of ZERO for the "Diffuser Analyis" and "Volute Analysis" inputs.
+   
+3) Use the "Compressor Preliminary Design" section to vary design features
+   and output the important performance results of that design.  It is currently
+   setup to vary the hub radius, shroud radius and the outlet passage width in 3
+   WHILE loops.  There are built in maximum and minimum values to constrain each
+   but the number of points each is varied within these bounds can be adjusted
+   using the "Number of Steps in Design Studies" variable at the bottom.  There
+   is also an option to vary the number of blades.  The "Inlet Condition Study"
+   can be used to see the effects of reducing the temperature and pressure closer
+   to the critical point (and through it), however it will most likely cause REFPROP 
+   errors and is still under construction.
+
+4) Save this file.  Be careful not to overwrite other important files.  The 
+   executable will only read the "CompressorDimensions.txt" file.  It is recommended
+   that you save a backup file just in case.
+
+5) Run the executable file called "CCMD.exe" in the main folder.  This will run the
+   performance calculations and create an output file when the analysis is finished!
+
+                              IMPORTANT NOTES
+
+> DO NOT EDIT ANYTHING OTHER THAN THE VALUES (or the title bar).  This is very 
+  important or the executable will not read the values properly.  The length of 
+  the number after the "|" does not matter. 
+
+> Total Temperature and total pressure MUST have a decimal value.  So remember
+  to put .0 after the value if you are using an integer value.
+
+> Currently, you may only enable one option at a time.
+
+> A number of "Error Checking" options were added to determine if there were issues
+  with convergence, calling REFPROP with invalid properties, etc.  It is recommended
+  to keep this set to 0 when doing any design optimization to speed up the analyis 
+  and ensure the code does not crash.  But the error checking can be used to determine
+  if there were any issues.  A good design should not have any.
+
+> If there are issues in the diffuser (efficiency is increasing, refprop errors, etc.)
+  then try changing the "Number of steps in the diffuser analysis".  A good estimate
+  for number of steps is around 50, but it depends on the size of the compressor.
+
+> If an error related to REFPROP exists, most likely the inputs include a design 
+  which is no good.  The error message may tell you what happened 
+  (i.e. HSFLSH did not converge).  Check the REFPROP manual for more information 
+  on REFPROP errors(text file is included in the folder).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           Current Rotor Name: CU-BCL Compressor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Working Fluid (Enter 1 to select, and 0 in others)
+
+Air..................................................|0
+Carbon Dioxide.......................................|1
+
+Please Enter Your Conceptual Rotor Design Features:
+
+Desired Pressure Ratio...............................|2.0
+Compressor Rotational Speed [RPM]....................|80000
+Mass Flow Rate [kg/s]................................|3.4
+Inlet Total Temperature [K]..........................|315.0
+Inlet Total Pressure [kPa]...........................|7700.0
+
+Rotor Tip Radius [m].................................|0.05054
+Length of Splitter Blade [m].........................|0
+Blade Thickness at inlet [m].........................|0.002061
+Blade Thickness at Tip [m]...........................|0.002061
+Impeller Roughness...................................|0.00001
+Tip Clearance [m]....................................|0.000254
+Inlet Swirl Angle [deg]..............................|0
+Inlet Curvature Rate [rad/m].........................|0
+
+DIFFUSER ANALYSIS....................................|1
+Diffuser Exit Radius [m].............................|0.08
+Diffuser Exit Width [m]..............................|0.004632
+VOLUTE ANALYSIS......................................|0
+Volute Loss Factor...................................|0
+Volute Exit Radius [m]...............................|0
+Volute Exit Width [m]................................|0
+
+COMPRESSOR PRELIMINARY DESIGN:
+Please select your current design step:
+
+*Step 1: Inlet/Outlet Dimensions*....................|0
+OR
+Inlet Hub Radius [zero] or [m].......................|0.002537485
+Inlet Shroud Radius [zero] or [m]....................|0.009372047
+Outlet Blade Height [zero] or [m]....................|0.004632
+
+*Step 2: Number of Blades*...........................|0
+OR
+Number of Full Blades [zero] or [#]..................|12
+Number of Splitter Blades [zero] or [#]..............|0
+
+*(Optional) Inlet Condition Study*...................|0
+
+Number of Steps in Design Studies....................|10
+Number of Steps in Diffuser analysis.................|50
+
+Error Checking.......................................|1

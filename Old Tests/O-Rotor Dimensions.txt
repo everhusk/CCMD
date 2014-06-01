@@ -1,0 +1,111 @@
+                        Carleton University
+         Department of Mechanical and Aerospace Engineering
+                   ROTOR PERFORMANCE OPTIMIZATION
+         
+              Current Rotor Name: Eckhardt O-Rotor
+          Last Updated By: Sukhveer Sanghera (March 2013)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The purpose of this tool is to test the design of a centrifugal compressor
+rotor operating in supercritical carbon dioxide.  Simply replace the 
+values below with your test design features and run the executable file 
+(RotorDesigner.exe).  See the related Design Report for more info.
+
+USER MANUAL:
+
+1) Enter dimensions of the rotor you wish to analyze below.
+
+2) Choose the analysis option you desire by setting any ONE 
+   option value equal either to 0 OR it's actual value.
+   I.e. To fix the rotor tip radius, enter any value greater than 0.
+   I.e. To vary the rotor tip radius, enter a value of 0 for it.
+
+3) Save this file.  Be careful not to overwrite other important
+   files.  The executable will only read the "RotorOptimization.txt"
+   file, so you are free to save as many other files with different
+   names in the same folder.
+
+4) Run the executable file called "RotorOptimization.exe" and
+   it will create an output file when the analysis is finished!
+
+IMPORTANT NOTES:
+
+> DO NOT EDIT ANYTHING OTHER THAN THE VALUES (or the title bar).
+  This is very important or the executable will not read the values 
+  properly.  The length of the number after the "|" is where you can change 
+  values to any length. Always save a backup of this file just in case.
+
+> Currently, you may only enable one option at a time.
+
+> If an error related to REFPROP exists, most likely the inputs
+  include a design which is no good.  The error message may tell you 
+  what happened (i.e. HSFLSH did not converge).  Check the REFPROP manual 
+  for more information on REFPROP errors(text file is added in the folder).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Working Fluid (Enter 1 to select, and 0 in others)
+
+Air..................................................|1
+Carbon Dioxide.......................................|0
+
+Please Enter Your Conceptual Rotor Design Features:
+
+Desired Pressure Ratio...............................|2.094
+Compressor Rotational Speed [RPM]....................|14000
+Mass Flow Rate [kg/s]................................|5.31
+Inlet Total Temperature [K]..........................|288.0
+Inlet Total Pressure [kPa]...........................|101.325
+
+Rotor Tip Radius [m].................................|0.2
+Length of Full Blade [m].............................|0.17126
+Length of Splitter Blade [m].........................|0
+Length of Meanline Path [m]..........................|0.17126
+Blade Thickness at inlet [m].........................|0.00211
+Blade Thickness at Tip [m]...........................|0.00108
+Impeller Roughness...................................|0.00005
+Tip Clearance [m]....................................|0.000372
+Inlet Swirl Angle [deg]..............................|1.68
+
+DIFFUSER AND VOLUTE ANALYSIS.........................|0
+Diffuser Loss Factor.................................|0
+Diffuser Exit Radius [m].............................|0
+Diffuser Exit Width [m]..............................|0
+Volute Loss Factor...................................|0
+Volute Exit Radius [m]...............................|0
+Diffuser Exit Width [m]..............................|0
+
+OPTIONS SECTION:
+Please Enter Your Conceptual Rotor Design Variations:
+
+*OPTION 1* 
+Inlet Hub Radius [zero] or [m].......................|0.045
+Minimum Inlet Hub Radius [m].........................|0.003521
+Maximum Inlet Hub Radius [m].........................|0.006
+
+*OPTION 2*
+Inlet Shroud Radius [zero] or [m]....................|0.14
+Minimum Inlet Shroud Radius [m]......................|0.1
+Maximum Inlet Shroud Radius [m]......................|0.2
+
+*OPTION 3*
+Number of Full Blades [zero] or [#]..................|0
+Minimum Number of Full Blades........................|15
+Maximum Number of Full Blades........................|25
+
+*OPTION 4*
+Number of Splitter Blades [zero] or [#]..............|0
+Minimum Number of Splitter Blades....................|0
+Maximum Number of Splitter Blades....................|0
+
+*OPTION 5*
+Axial Length of Rotor [zero] or [m]..................|0.119259
+Minimum Number of Full Blades........................|0.119259
+Maximum Number of Full Blades........................|0.4
+
+*OPTION 6*
+Outlet Passage Width [zero] or [m]...................|0.026
+Minimum Number of Full Blades........................|0.026
+Maximum Number of Full Blades........................|0.04
+
+Number of Steps......................................|10

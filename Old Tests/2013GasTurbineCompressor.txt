@@ -1,0 +1,54 @@
+                    Carleton University
+     Department of Mechanical and Aerospace Engineering
+          GT13 COMPRESSOR PERFORMANCE ANALYSIS RESULTS
+                    Gas Turbine Project
+
+ ~~~~~~~~~~~~~~~~~~~~~~IMPELLER LOSSES~~~~~~~~~~~~~~~~~~~~~~~~
+
+Incidence Loss:                         0.0000000        J/kg
+Blade Loading Loss:                  1290.3855987        J/kg
+Skin Friction Loss:                 15413.6982344        J/kg
+Tip Clearance Loss:                  1140.8777078        J/kg
+Mixing Loss:                         3254.7586219        J/kg
+Disk Friction Loss:                   204.4083041        J/kg
+Leakage Work Loss:                   5555.1898336        J/kg
+Recirculation Work Loss:              131.4765961        J/kg
+
+Internal Loss Total:                21099.7201628        J/kg
+Parasitic Loss Total:                5891.0747338        J/kg
+
+ ~~~~~~~~~~~~~~~~~~~~ROTOR OUTLET CONDTIONS~~~~~~~~~~~~~~~~~~~
+
+Total Enthalpy (H02):                 479.9724924       kJ/kg
+Total Entropy (S02):                    1.7586030     kJ/kg-K
+Total Temperature (T02):              404.9816676           K
+Total Pressure (P02):               22542.0000000         kPa
+Total Density (rho02):                  9.5249156      kg/m^3
+
+Static Enthalpy (H2):                 450.6250835       kJ/kg
+Static Entropy (S2):                    1.7586030     kJ/kg-K
+Static Temperature (T2):              354.6699752           K
+Static Pressure (P2):               12043.9521857         kPa
+Static Density (rho2):                292.8325926      kg/m^3
+
+Relative Mach Number:                   0.3680050
+
+Metal Angle (Beta 2):                 -16.6019524         deg
+Swirl Angle (Alpha 2):                 72.1647635         deg
+Cu2:                                  250.7637754         m/s
+Wu2:                                  -24.0552178         m/s
+C2:                                   263.4235910         m/s
+
+ ~~~~~~~~~~~~~~~NON-DIMENSIONAL DESIGN PARAMETERS~~~~~~~~~~~~~
+
+de Haller at tip:                       0.5054360
+de Haller at hub:                       0.6909348
+de Haller at mer:                       0.5769109
+Flow Factor:                            0.2935808
+Work Coefficient:                       0.8312418
+
+ *************************************************************
+COMPRESSOR PRESSURE RATIO:              2.8900000
+COMPRESSOR EFFICIENCY:                  0.6639099
+ *************************************************************
+

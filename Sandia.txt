@@ -1,0 +1,158 @@
+                    Carleton University
+     Department of Mechanical and Aerospace Engineering
+           COMPRESSOR PERFORMANCE ANALYSIS RESULTS
+                    Gas Turbine Project
+
+ ~~~~~~~~~~~~~~~~~~~~~ COMPRESSOR DESIGN ~~~~~~~~~~~~~~~~~~~~~
+
+Compressor Rotational Speed [RPM].............|     75000
+Mass Flow Rate [kg/s].........................|     3.5300000
+
+Number of Full Blades.........................|        12
+Number of Splitter Blades.....................|         0
+Length of Full Blade [m]......................|     0.0000000
+Length of Splitter Blade [m]..................|     0.0000000
+Length of Meanline Path [m]...................|     0.0353553
+
+Inlet Blade Thickness [m].....................|     0.0007620
+Inlet Hub Radius [m]..........................|     0.0025375
+Inlet Shroud Radius [m].......................|     0.0093720
+Inlet Meanline Radius [m].....................|     0.0068656
+
+Outlet Blade Thickness[m].....................|     0.0007620
+Outlet Passage Width[m].......................|     0.0017120
+Outlet Tip Radius [m].........................|     0.0186817
+
+Rotor Axial Length [m]........................|     0.0089161
+Impeller Roughness............................|     0.0000050
+Tip Clearance [m].............................|     0.0002540
+Diffuser Exit Radius [m]......................|     0.0296000
+Diffuser Exit Passage Width [m]...............|     0.0017120
+
+
+ ~~~~~~~~~~~~~~~~~~ THERMODYNAMIC PROPERTIES ~~~~~~~~~~~~~~~~~~
+
+ ~~~~~~~~~~~~~~~~~~~~ ROTOR INLET - Station 1 ~~~~~~~~~~~~~~~~~
+Total Enthalpy (H01):                 309.3829231       kJ/kg
+Total Entropy (S01):                    1.3566805     kJ/kg-K
+Total Temperature (T01):              305.3000000           K
+Total Pressure (P01):                7690.0000000         kPa
+Total Density (rho01):                587.0729767      kg/m^3
+
+Static Enthalpy (H1):                 309.1024876       kJ/kg
+Static Entropy (S1):                    1.3566805     kJ/kg-K
+Static Temperature (T1):              304.6215758           K
+Static Pressure (P1):                7525.9420234         kPa
+Static Density (rho1):                582.8917979      kg/m^3
+
+ ~~~~~~~~~~~~~ ROTOR LOSSES - Between Stations 1 & 2 ~~~~~~~~~~
+Incidence Loss:                         0.0000000       kJ/kg
+Blade Loading Loss:                     0.0624311       kJ/kg
+Skin Friction Loss:                     1.7614837       kJ/kg
+Tip Clearance Loss:                     0.5382693       kJ/kg
+Mixing Loss:                            0.0031799       kJ/kg
+Disk Friction Loss:                     0.1316572       kJ/kg
+Leakage Work Loss:                      0.8060351       kJ/kg
+Recirculation Work Loss:                0.0000000       kJ/kg
+
+Internal Loss Total:                    2.3653641       kJ/kg
+Parasitic Loss Total:                   0.9376923       kJ/kg
+
+ ~~~~~~~~~~~~~~~~~~~ ROTOR OUTLET - Station 2 ~~~~~~~~~~~~~~~~
+Total Enthalpy (H02):                 322.7285618       kJ/kg
+Total Entropy (S02):                    1.3639870     kJ/kg-K
+Total Temperature (T02):              324.0836368           K
+Total Pressure (P02):               14072.2154634         kPa
+Total Density (rho02):                664.8543440      kg/m^3
+
+Static Enthalpy (H2):                 317.7696553       kJ/kg
+Static Entropy (S2):                    1.3639870     kJ/kg-K
+Static Temperature (T2):              317.7001302           K
+Static Pressure (P2):               11450.5076959         kPa
+Static Density (rho2):                638.1561278      kg/m^3
+
+Rotor Efficiency:                       0.7524992      kg/m^3
+
+ ~~~~~~~~~~~~~~~~~~ DIFFUSER OUTLET - Station 4 ~~~~~~~~~~~~~~~
+
+Total Enthalpy (H04):                 322.7285618       kJ/kg
+Total Entropy (S04):                    1.3672910     kJ/kg-K
+Total Temperature (T04):              324.1989348           K
+Total Pressure (P04):               13983.8831397         kPa
+Total Density (rho04):                660.7825645      kg/m^3
+
+Static Enthalpy (H4):                 321.3123022       kJ/kg
+Static Entropy (S4):                    1.3672910     kJ/kg-K
+Static Temperature (T4):              322.0259400           K
+Static Pressure (P4):               13054.2783133         kPa
+Static Density (rho4):                651.8805825      kg/m^3
+
+Diffuser Efficiency:                    0.7426447      kg/m^3
+
+ ~~~~~~~~~~~~~~~~~~~~~~~ VELOCITY TRIANGLES ~~~~~~~~~~~~~~~~~~~
+
+Imp. Inlet Velocity Triangle (Mean)
+Tangential Velocity (U1):              53.9226319         m/s
+Axial Velocity (Cm1):                  23.6827152         m/s
+Relative Velocity (W1):                58.8941528         m/s
+Relative Tang. Component (Wu1):       -53.9226319         m/s
+Relative Flow Angle (Beta1):          -66.2890103         deg
+Absolute Velocity (C1):                23.6827152         m/s
+Absolute Tang. Component (Cu1):         0.0000000         m/s
+Inlet Swirl Angle (Alpha1):             0.0000000         deg
+Inlet Mach Number (M1):                 0.3055268
+
+Imp. Inlet Velocity Triangle (Hub):
+Tangential Velocity (U1h):             19.9293611         m/s
+Axial Velocity (Cm1h):                 23.6827152         m/s
+Relative Velocity (W1h):               30.9523898         m/s
+Relative Tang. Component (Wu1h):      -19.9293611         m/s
+Relative Flow Angle (Beta1h):         -40.0811147         deg
+Absolute Velocity (C1h):               23.6827152         m/s
+Absolute Tang. Component (Cu1h):        0.0000000         m/s
+Inlet Swirl Angle (Alpha1):             0.0000000         deg
+Inlet Mach Number (M1h):                0.1605726
+
+Imp. Inlet Velocity Triangle (Tip):
+Tangential Velocity (U1t):             73.6078871         m/s
+Axial Velocity (Cm1t):                 23.6827152         m/s
+Relative Velocity (W1t):               77.3239422         m/s
+Relative Tang. Component (Wu1t):      -73.6078871         m/s
+Relative Flow Angle (Beta1t):         -72.1648577         deg
+Absolute Velocity (C1t):               23.6827152         m/s
+Absolute Tang. Component (Cu1t):        0.0000000         m/s
+Inlet Swirl Angle (Alpha1):             0.0000000         deg
+Inlet Mach Number (M1t):                0.4011355
+
+Imp. Outlet Velocity Triangle:     
+Tangential Velocity (U2):             146.7257328         m/s
+Radial Velocity (Cr2):                 29.8511305         m/s
+Absolute Velocity Tangential (Cu2):    94.9065726         m/s
+Absolute Velocity (C2):                99.4904393         m/s
+Swirl Angle (Alpha 2):                 72.5399808         deg
+Relative Velocity Tangential (Wu2):   -51.8191602         m/s
+Relative Velocity (W2):                59.8023022         m/s
+Flow Angle (Beta2):                   -64.3483175         deg
+Metal Angle (Beta2m):                 -60.0553209         deg
+Absolute Mach Number (M2):              0.3054650
+Relative Mach Number (M2r):             0.2348778
+
+Diff. Outlet Velocity Triangle:    
+Meridional Velocity (Cm4):             18.7614290         m/s
+Absolute Velocity Tangential (Cu4):    49.8048926         m/s
+Absolute Velocity (C4):                53.2214106         m/s
+Swirl Angle (Alpha 4):                 69.3586810         deg
+Absolute Mach Number (M4):              0.1680693
+ ~~~~~~~~~~~~~~ NON-DIMENSIONAL DESIGN PARAMETERS ~~~~~~~~~~~~~
+
+de Haller number:                       1.1708520
+Flow Factor:                            0.2034485
+Work Coefficient:                       0.5763514
+Flow Coefficient:                       0.0373761
+Rotational Mach Number:                 0.4997746
+
+ *************************************************************
+COMPRESSOR PRESSURE RATIO:              1.8184503
+COMPRESSOR EFFICIENCY:                  0.7426447
+ *************************************************************
+
