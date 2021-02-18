@@ -207,30 +207,6 @@ WRITE(*,*)
 WRITE(*,*)
 WRITE(*,*)
 WRITE(*,*)
-WRITE(*,*) 'Input Design Flow Coefficient:'
-READ (*,*) FlowCoefficient
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
-WRITE(*,*)
 WRITE(*,*) 'Please Enter Output File Name (i.e. ConceptOne.txt):'
 READ (*,*) Outfile
 OPEN(UNIT=10,FILE=OutFile,STATUS='NEW')
@@ -544,6 +520,7 @@ END IF
     U2=r2*2*PI*N/60!Blade Speed (m/s)
     PRr=Target_PR+0.2!Rotor Pressure Ratio Guess
     Effr=0.9!Rotor Isentropic Efficiency Guess
+		FlowCoefficient=4*(zMdot*rho01)/(pi*(D1s**2-D1h**2)*U1)!Inlet Flow Coefficient from Gulich (2010 p136)
     DeltaZ = D2*(0.014 + 0.023*D2/D1h + 1.58*FlowCoefficient) !Empirical estimate from Aungier (2000 pg 113)
       
     !ROTOR INLET
